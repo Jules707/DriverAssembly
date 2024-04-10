@@ -1,0 +1,7 @@
+﻿  Building 'KMDF Driver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Assembling Source1.asm...
+  Source.cpp
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(8,26): error C2220: the following warning is treated as an error
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(8,26): warning C4100: 'Driver': unreferenced formal parameter
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(14,26): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(13,49): warning C4100: 'DriverObject': unreferenced formal parameter

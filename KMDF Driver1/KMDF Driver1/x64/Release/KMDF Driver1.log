@@ -1,0 +1,9 @@
+﻿  Building 'KMDF Driver1' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Source.cpp
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(8,26): warning C4100: 'Driver': unreferenced formal parameter
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(14,26): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\KMDF Driver1\Source.cpp(13,49): warning C4100: 'DriverObject': unreferenced formal parameter
+Source.obj : error LNK2019: unresolved external symbol "void __cdecl MainAsm(void)" (?MainAsm@@YAXXZ) referenced in function "long __cdecl Gs1DriverEntry(struct _DRIVER_OBJECT *,struct _UNICODE_STRING *)" (?Gs1DriverEntry@@YAJPEAU_DRIVER_OBJECT@@PEAU_UNICODE_STRING@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      MainAsm
+C:\Programs\Programming\(2) Visual Studio\Projects\Drivers\Test assembly\KMDF Driver1\x64\Release\KMDFDriver1.sys : fatal error LNK1120: 1 unresolved externals
